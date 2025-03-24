@@ -1,0 +1,25 @@
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btn {
+  border-radius: 1.8rem;
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.06rem;
+  transition: all 0.2s ease-out;
+  margin-top: 80px;
+
+  // Normal Style
+  color: $text-white-0;
+  border: 1px solid $stroke-white-0;
+
+  &:hover {
+    background: $bg-white-0;
+    color: $text-purple-0;
+  }
+}

@@ -1,0 +1,56 @@
+// Purple Variations
+
+$purple-darker: #050408;
+$purple-dark: #5a36bf;
+$purple-base: #6e3ff3;
+$purple-light: #cac2ff;
+$purple-lighter: #eeebff;
+
+// Neutral colors
+
+$neutral-900: #0a0d14;
+$neutral-800: #161922;
+$neutral-700: #20232d;
+$neutral-600: #31353f;
+$neutral-500: #525866;
+$neutral-400: #868c98;
+$neutral-300: #cdd0d5;
+$neutral-200: #e2e4e9;
+$neutral-100: #f6f8fa;
+$neutral-0: #fff;
+
+// ------------------------------
+// Color Tokens
+
+// Background Color Tokens
+
+$bg-strong-900: $neutral-900;
+$bg-surface-700: $neutral-700;
+$bg-soft-200: $neutral-200;
+$bg-weak-100: $neutral-100;
+$bg-white-0: $neutral-0;
+
+// Text Color Tokens
+
+$text-main-900: $neutral-900;
+$text-sub-500: $neutral-500;
+$text-soft-400: $neutral-400;
+$text-disabled-300: $neutral-300;
+$text-white-0: $neutral-0;
+$text-purple-0: $purple-darker;
+
+// Stroke Color Tokens
+
+$stroke-strong-900: $neutral-900;
+$stroke-sub-300: $neutral-300;
+$stroke-soft-200: $neutral-200;
+$stroke-disabled-100: $neutral-100;
+$stroke-white-0: $neutral-0;
+
+// Icon Color Tokens
+
+$icon-strong-900: $neutral-900;
+$icon-sub-500: $neutral-500;
+$icon-soft-400: $neutral-400;
+$icon-disabled-300: $neutral-300;
+$icon-white-0: $neutral-0;

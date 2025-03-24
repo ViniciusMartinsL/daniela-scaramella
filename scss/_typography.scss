@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+$base-color-title: $text-white-0;
+$base-color-text: $text-white-0;
+$base-color-accent: $purple-darker;
+
+$base-font-title: "Playfair+display", serif;
+$base-font-text: "Source+Sans+3", sans-serif;
+$base-font-size: 1.4rem;
+$base-line-height: 1.3;
+$base-font-weight: 400;
+
+html {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-family: $base-font-text;
+  font-weight: $base-font-weight;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: $base-font-text;
+  font-style: normal;
+  color: $base-color-title;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: $base-font-title;
+}
+
+span,
+p,
+small,
+b,
+a {
+  color: $base-color-text;
+}
+
+a {
+  text-decoration: none;
+
+  &.link {
+    color: darken($base-color-accent, 10%);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 2rem;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: -0.00525rem;
+}
+
+.square {
+  display: flex;
+  align-items: flex-start;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    margin-right: 16px;
+    background-color: $purple-darker;
+    margin-top: 8px;
+  }
+
+  &.accent {
+    &::before {
+      background-color: $purple-darker;
+    }
+  }
+}
+
+.highlight {
+  background-color: $purple-darker;
+  color: $text-white-0;
+  padding: 0 3px;
+}
+
+.slashed {
+  text-decoration: line-through;
+}
