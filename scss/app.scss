@@ -287,10 +287,14 @@
 
 @media (max-width: 800px) {
   .navbar {
-    flex-direction: column; // Empilha os itens
-    height: auto;
-    left: 0; // Remove o deslocamento negativo se necessário
+    max-width: 100%;
+    flex-direction: column;
     text-align: center;
+    justify-content: space-between;
+    &__menu {
+      flex-wrap: wrap;
+      line-height: 2;
+    }
 
     &__logo {
       padding-bottom: 20px;
@@ -298,8 +302,20 @@
       justify-content: center; // Centraliza o logo
       margin-bottom: 10px;
     }
+    li {
+      padding: 0px 10px;
+      &:not(:last-child) {
+        padding-right: 0px;
+      }
+    }
+  }
+  .graduation-section {
+    &__content {
+      padding: 40px 20px 40px 20px;
+    }
   }
   .homepage {
+    overflow-x: hidden;
     text-align: center;
   }
   .hero-section {

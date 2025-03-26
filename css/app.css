@@ -594,48 +594,66 @@ button {
 @media (max-width: 800px) {
   /* line 289, ../../../Documents/dani jacare/site2/scss/app.scss */
   .navbar {
+    max-width: 100%;
     flex-direction: column;
-    height: auto;
-    left: 0;
     text-align: center;
+    justify-content: space-between;
   }
-  /* line 295, ../../../Documents/dani jacare/site2/scss/app.scss */
+  /* line 294, ../../../Documents/dani jacare/site2/scss/app.scss */
+  .navbar__menu {
+    flex-wrap: wrap;
+    line-height: 2;
+  }
+  /* line 299, ../../../Documents/dani jacare/site2/scss/app.scss */
   .navbar__logo {
     padding-bottom: 20px;
     width: 50%;
     justify-content: center;
     margin-bottom: 10px;
   }
-  /* line 302, ../../../Documents/dani jacare/site2/scss/app.scss */
+  /* line 305, ../../../Documents/dani jacare/site2/scss/app.scss */
+  .navbar li {
+    padding: 0px 10px;
+  }
+  /* line 307, ../../../Documents/dani jacare/site2/scss/app.scss */
+  .navbar li:not(:last-child) {
+    padding-right: 0px;
+  }
+  /* line 313, ../../../Documents/dani jacare/site2/scss/app.scss */
+  .graduation-section__content {
+    padding: 40px 20px 40px 20px;
+  }
+  /* line 317, ../../../Documents/dani jacare/site2/scss/app.scss */
   .homepage {
+    overflow-x: hidden;
     text-align: center;
   }
-  /* line 306, ../../../Documents/dani jacare/site2/scss/app.scss */
+  /* line 322, ../../../Documents/dani jacare/site2/scss/app.scss */
   .hero-section img {
     display: none;
   }
-  /* line 310, ../../../Documents/dani jacare/site2/scss/app.scss */
+  /* line 326, ../../../Documents/dani jacare/site2/scss/app.scss */
   .hero-section__content__group {
     padding: 0px 20px;
   }
-  /* line 315, ../../../Documents/dani jacare/site2/scss/app.scss */
+  /* line 331, ../../../Documents/dani jacare/site2/scss/app.scss */
   .hero-item {
     text-align: center;
     align-self: center;
   }
-  /* line 319, ../../../Documents/dani jacare/site2/scss/app.scss */
+  /* line 335, ../../../Documents/dani jacare/site2/scss/app.scss */
   .btn {
     align-self: center;
   }
-  /* line 323, ../../../Documents/dani jacare/site2/scss/app.scss */
+  /* line 339, ../../../Documents/dani jacare/site2/scss/app.scss */
   .trait-section__wrapper {
     padding: 20px 20px;
   }
-  /* line 328, ../../../Documents/dani jacare/site2/scss/app.scss */
+  /* line 344, ../../../Documents/dani jacare/site2/scss/app.scss */
   .bio-section img {
     display: none;
   }
-  /* line 331, ../../../Documents/dani jacare/site2/scss/app.scss */
+  /* line 347, ../../../Documents/dani jacare/site2/scss/app.scss */
   .bio-section__wrapper {
     padding: 50px 20px;
   }
