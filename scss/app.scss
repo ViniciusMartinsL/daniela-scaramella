@@ -284,3 +284,52 @@
 .border {
   border-left: 1px solid white;
 }
+
+@media (max-width: 800px) {
+  .navbar {
+    flex-direction: column; // Empilha os itens
+    height: auto;
+    left: 0; // Remove o deslocamento negativo se necessário
+    text-align: center;
+
+    &__logo {
+      padding-bottom: 20px;
+      width: 50%;
+      justify-content: center; // Centraliza o logo
+      margin-bottom: 10px;
+    }
+  }
+  .homepage {
+    text-align: center;
+  }
+  .hero-section {
+    img {
+      display: none;
+    }
+    &__content {
+      &__group {
+        padding: 0px 20px;
+      }
+    }
+  }
+  .hero-item {
+    text-align: center;
+    align-self: center;
+  }
+  .btn {
+    align-self: center;
+  }
+  .trait-section {
+    &__wrapper {
+      padding: 20px 20px;
+    }
+  }
+  .bio-section {
+    img {
+      display: none;
+    }
+    &__wrapper {
+      padding: 50px 20px;
+    }
+  }
+}
