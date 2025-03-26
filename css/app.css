@@ -574,7 +574,7 @@ button {
 .footer__content {
   display: flex;
   align-self: center;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
