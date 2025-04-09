@@ -2,6 +2,9 @@
 
 .app {
   background-color: $purple-darker;
+  &__header {
+    display: block;
+  }
 }
 
 .navbar {
